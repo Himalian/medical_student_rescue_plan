@@ -7,5 +7,8 @@
         "comments": false,
         "strings": true
     },
-    "r.lsp.promptToInstall": false
+    "r.lsp.promptToInstall": false,
+    "editor.wrappingIndent": "none",
+    "writerHelper.plugin.lineAsParagraph": true,
+    "writerHelper.plugin.markdownFormatting": true
 }
