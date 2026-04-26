@@ -1,0 +1,16 @@
+[project]
+name = "medical-student-rescue-plan"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "markitdown>=0.1.5",
+    "zensical>=0.0.36",
+]
+
+[dependency-groups]
+dev = [
+    "pandoc>=2.4",
+    "zensical>=0.0.36",
+]
