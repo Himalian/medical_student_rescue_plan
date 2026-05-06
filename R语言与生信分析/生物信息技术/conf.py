@@ -21,9 +21,9 @@ master_doc = 'index'
 language = 'zh_CN'
 
 html_theme_options = {
-    'description': '生物信息技术基础教程',
-    'fixed_sidebar': True,
-    'sidebar_width': '260px',
+    'navigation_depth': 4,
+    'collapse_navigation': False,
+    'sticky_navigation': True,
 }
 
 html_context = {
