@@ -24,8 +24,19 @@ html_theme_options = {
     'navigation_depth': 4,
     'collapse_navigation': False,
     'sticky_navigation': True,
+    'includehidden': True,
+    'titles_only': False
 }
 
 html_context = {
     'display_github': False,
+}
+
+html_sidebars = {
+    '**': [
+        'about.html',
+        'navigation.html',
+        'relations.html',
+        'searchbox.html',
+    ]
 }
